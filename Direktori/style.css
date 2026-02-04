@@ -1,0 +1,81 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.background{
+    background-color: #f8c15b;
+}
+
+/* NAVBAR */
+.container-navbar {
+    display: flex;
+    justify-content: space-between; /* Adjust alignment as needed */
+    align-items: center;
+    background-color: #FFB200;
+    height: 11vh;
+    padding: 0 20px; /* Add padding for spacing */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ul-navbar {
+    display: flex;
+    list-style: none;
+    margin: px;
+    padding: 0;
+}
+
+.li-navbar {
+    margin: 0 10px; /* Adjust spacing between items */
+}
+
+.a-navbar {
+    text-decoration: none;
+    color: #333; /* Darker text for better contrast */
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: bold;
+}
+
+.li-navbar:hover .a-navbar {
+    color: #fff;
+    background-color: #FFA500; /* Slightly darker hover color */
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* NAVBAR END */
+
+/* CONTENT */
+.container-direktori {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-direktori, .table-wali-kelas {
+    width: 100%; /* Mengatur lebar tabel */
+    border-collapse: collapse; /* Menghapus jarak antara border sel */
+}
+
+.table-direktori th, .table-wali-kelas th,
+.table-direktori td, .table-wali-kelas td {
+    border: 2px solid black; /* Border untuk tabel */
+    padding: 10px; /* Jarak dalam sel */
+    text-align: center; /* Mengatur teks agar berada di tengah */
+}
+
+.table-direktori th {
+    background-color: #FFA500; /* Warna latar belakang header tabel */
+}
+
+.table-wali-kelas th {
+    background-color: #FFA500; /* Warna latar belakang header tabel */
+}
+
+.kelas, .h-direktori{
+    text-align: center;
+    margin: 10px;
+}
+/* CONTENT END */
