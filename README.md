@@ -1,4 +1,4 @@
-###School-Web 🏫
+School-Web 🏫
 Selamat datang di repositori School-Web! Ini adalah proyek pengembangan web pertama saya. Proyek ini merupakan tugas yang saya kerjakan untuk mempraktikkan dasar-dasar pembuatan website modern dan responsif.
 
 📝 Deskripsi Proyek
